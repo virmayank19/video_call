@@ -1,0 +1,19 @@
+{
+  "name": "videocall",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.4",
+    "simple-peer": "^9.7.2",
+    "socket.io": "^2.3.0",
+    "watchify": "^3.11.1"
+  }
+}
